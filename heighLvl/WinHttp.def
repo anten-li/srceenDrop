@@ -1,0 +1,21 @@
+LIBRARY "WinHttp.dll"
+
+EXPORTS
+WinHttpCloseHandle
+_WinHttpCloseHandle@4 = WinHttpCloseHandle
+WinHttpOpen
+_WinHttpOpen@20 = WinHttpOpen
+WinHttpConnect
+_WinHttpConnect@16 = WinHttpConnect
+WinHttpOpenRequest
+_WinHttpOpenRequest@28 = WinHttpOpenRequest
+WinHttpAddRequestHeaders
+_WinHttpAddRequestHeaders@16 = WinHttpAddRequestHeaders
+WinHttpSendRequest
+_WinHttpSendRequest@28 = WinHttpSendRequest
+WinHttpReceiveResponse
+_WinHttpReceiveResponse@8 = WinHttpReceiveResponse
+WinHttpReadData
+_WinHttpReadData@16 = WinHttpReadData
+WinHttpSetTimeouts
+_WinHttpSetTimeouts@20 = WinHttpSetTimeouts
